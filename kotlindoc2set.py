@@ -7,6 +7,7 @@ if __name__ == '__main__':
 
     dirutil.setup_docset_directories(DOCSET_DOCUMENT_PATH)
     dirutil.copy_icon(STATIC_ASSET_ICON_PATH, DOCSET_ICON_PATH)
+    dirutil.copy_icon(STATIC_ASSET_ICON_2X_PATH, DOCSET_ICON_PATH)
     dirutil.copy_plist(STATIC_ASSET_PLIST_PATH, DOCSET_PLIST_PATH)
 
     sqlite_connection: SQLiteConnection = SQLiteConnection(DATABASE_PATH)
