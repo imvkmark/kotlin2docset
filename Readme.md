@@ -1,5 +1,8 @@
 # Kotlin2Docset
 
+> This Project Not Maintained, Has Refactor by Php
+> Url : https://github.com/imvkmark/dash-docsets
+
 ## Kotlin Docset generator for Dash
 
 ### Requirements
